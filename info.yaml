@@ -1,6 +1,6 @@
 project:
   title: "Raksha"
-  author: "Raksha"
+  author: "Sinchana"
   description: "Raksha - Secure Packet Authentication Engine for V2X Communication"
   language: "Verilog"
   clock_hz: 1000000
@@ -11,3 +11,31 @@ project:
 
   source_files:
     - "tt_um_raksha.v"
+
+pinout:
+  ui[0]: "Packet Input Bit 0"
+  ui[1]: "Packet Input Bit 1"
+  ui[2]: "Packet Input Bit 2"
+  ui[3]: "Packet Input Bit 3"
+  ui[4]: "Packet Input Bit 4"
+  ui[5]: "Packet Input Bit 5"
+  ui[6]: "Packet Input Bit 6"
+  ui[7]: "Packet Input Bit 7"
+
+  uo[0]: "Authentication OK"
+  uo[1]: "Alert Output"
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
+
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
